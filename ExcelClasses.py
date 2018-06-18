@@ -15,7 +15,7 @@ class DataSheet:
 
 		for i in range(0, 40):
 			tble = Table(self.samples, i, j)
-			histoTble = tble.getHisto()
+			histoTble = tble.histo
 
 			for tag, ser in histoTble.items():
 				if tag not in totalHisto:
@@ -34,7 +34,7 @@ class DataSheet:
 			if(isHighEnergy != tble.isHighEnergy or n != tble.numberOfTags):
 				continue
 			count += 1
-			histoTble = tble.getHisto()
+			histoTble = tble.histo
 
 			for tag, ser in histoTble.items():
 				if tag not in totalHisto:
@@ -70,8 +70,9 @@ class Table:
 				break
 
 		self.numberOfTags = i
+		self.histo = self.getHisto()
 
-	# Returns the histogram for that table
+	# Returns the histogram for that table (private method). Use self.histo property!
 	def getHisto(self):
 		r = self.row*16 + 5
 		c = self.col*10 + 1
@@ -79,6 +80,8 @@ class Table:
 		
 		histo = {}
 		
+		self.numCorrectCells = 0
+
 		# Go column by column, starting from the column with tag "0"
 		for i in range(1, 9):
 			
@@ -99,8 +102,10 @@ class Table:
 			for j in range(5, 13):
 				if correctCode == str(table.iloc[j, i]):
 					histo[tag][j-5] += 1
+					self.numCorrectCells += 1
 					
 		return histo
+
 
 
 # Print out a histogram
