@@ -5,8 +5,8 @@ public class algo {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		if(args[0].equals("example")) {
-			int[] weights = {3,4,0,0,0,2,4,2};
+		if(args.length==1 && args[0].equals("example")) {
+			float[] weights = {3,4,0,0,0,2,4,2};
 			String[] obsSequences = {"01000110", "01111000", "01100100", "00011111", "10001001", "11111001", "01100111", "11111001"};
 			System.out.println("\n\nThe predicted sequence is: " + predictSequence(weights, obsSequences));
 			System.out.println("Here's the data for which this sequence was predicted: ");
@@ -14,7 +14,7 @@ public class algo {
 		}
 
 		else {
-			int[] weights = new int[8];
+			float[] weights = new float[8];
 			String[] obsSequences = new String[8];
 			System.out.println("Enter the weights and observed sequence for: ");
 			String[] series = {"Series a", "Series b", "Series c", "Series d", "Series w", "Series x", "Series y", "Series z"};
@@ -22,7 +22,7 @@ public class algo {
 			for(int i = 0; i < 8; i++) {
 				System.out.println("\n" + series[i]);
 				System.out.print("Weight: ");
-				weights[i] = in.nextInt();
+				weights[i] = in.nextFloat();
 				System.out.print("Observed sequence: ");
 				obsSequences[i] = in.next();
 			}
@@ -33,7 +33,7 @@ public class algo {
 
 	}
 
-	public static String predictSequence(int weights[], String obsSequences[]) {
+	public static String predictSequence(float weights[], String obsSequences[]) {
 
 		String predSeq = "";
 
@@ -41,8 +41,8 @@ public class algo {
 
 		// Go through every bit, one by one
 		for(int i = 0; i < 8; i++) {
-			int sum0 = 0;
-			int sum1 = 0;
+			float sum0 = 0;
+			float sum1 = 0;
 
 			ArrayList<Integer> ones = new ArrayList<>();
 			ArrayList<Integer> zeroes = new ArrayList<>();
@@ -88,7 +88,7 @@ public class algo {
 		return predSeq;
 	}
 
-	private static void printData(int weights[], String obsSequences[]) {
+	private static void printData(float weights[], String obsSequences[]) {
 		String[] series = {"Series a", "Series b", "Series c", "Series d", "Series w", "Series x", "Series y", "Series z"};
 		
 		for(int i = 0; i < 8; i++) {
