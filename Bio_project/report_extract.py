@@ -1,8 +1,9 @@
 def getDictionary(fileName):
+
 	try:
 		reportFile = open(fileName, "r")
 	except:
-		print "Error opening file " + fileName
+		print "=======Error opening file " + fileName
 
 	i = 0
 

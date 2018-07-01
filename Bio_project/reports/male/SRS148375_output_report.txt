@@ -1,0 +1,24 @@
+  7.69	1	1	U	0	unclassified
+ 92.31	12	0	-	1	root
+ 92.31	12	0	-	131567	  cellular organisms
+ 92.31	12	0	D	2	    Bacteria
+ 61.54	8	0	-	1783270	      FCB group
+ 61.54	8	0	-	68336	        Bacteroidetes/Chlorobi group
+ 61.54	8	0	P	976	          Bacteroidetes
+ 61.54	8	0	C	200643	            Bacteroidia
+ 61.54	8	0	O	171549	              Bacteroidales
+ 61.54	8	0	F	171552	                Prevotellaceae
+ 61.54	8	0	G	838	                  Prevotella
+ 61.54	8	8	S	28132	                    Prevotella melaninogenica
+ 23.08	3	0	-	1783272	      Terrabacteria group
+ 23.08	3	0	P	1239	        Firmicutes
+ 23.08	3	0	C	91061	          Bacilli
+ 23.08	3	0	O	186826	            Lactobacillales
+ 23.08	3	0	F	33958	              Lactobacillaceae
+ 23.08	3	3	G	1578	                Lactobacillus
+  7.69	1	0	P	1224	      Proteobacteria
+  7.69	1	0	C	28216	        Betaproteobacteria
+  7.69	1	0	O	206351	          Neisseriales
+  7.69	1	0	F	481	            Neisseriaceae
+  7.69	1	0	G	482	              Neisseria
+  7.69	1	1	S	490	                Neisseria sicca

@@ -1,0 +1,271 @@
+  3.59	680	680	U	0	unclassified
+ 96.41	18264	0	-	1	root
+ 96.41	18264	0	-	131567	  cellular organisms
+ 96.41	18264	330	D	2	    Bacteria
+ 63.24	11981	0	-	1783270	      FCB group
+ 63.24	11981	0	-	68336	        Bacteroidetes/Chlorobi group
+ 63.24	11981	42	P	976	          Bacteroidetes
+ 63.02	11938	0	C	200643	            Bacteroidia
+ 63.02	11938	489	O	171549	              Bacteroidales
+ 30.11	5704	0	F	815	                Bacteroidaceae
+ 30.11	5704	2259	G	816	                  Bacteroides
+ 10.95	2075	2009	S	821	                    Bacteroides vulgatus
+  0.35	66	66	-	435590	                      Bacteroides vulgatus ATCC 8482
+  3.15	596	596	S	817	                    Bacteroides fragilis
+  1.63	308	308	S	818	                    Bacteroides thetaiotaomicron
+  1.19	226	226	S	28116	                    Bacteroides ovatus
+  1.15	218	218	S	246787	                    Bacteroides cellulosilyticus
+  0.07	13	0	S	290053	                    Bacteroides helcogenes
+  0.07	13	13	-	693979	                      Bacteroides helcogenes P 36-108
+  0.05	9	0	S	376805	                    Bacteroides salanitronis
+  0.05	9	9	-	667015	                      Bacteroides salanitronis DSM 18170
+ 23.96	4539	0	F	171552	                Prevotellaceae
+ 23.96	4539	2323	G	838	                  Prevotella
+ 11.63	2204	0	S	589437	                    Prevotella scopos
+ 11.63	2204	2204	-	1236518	                      Prevotella scopos JCM 17725
+  0.04	7	0	S	28129	                    Prevotella denticola
+  0.04	7	7	-	767031	                      Prevotella denticola F0289
+  0.01	2	1	S	28131	                    Prevotella intermedia
+  0.01	1	1	-	1122984	                      Prevotella intermedia ATCC 25611 = DSM 20706
+  0.01	2	2	S	76123	                    Prevotella enoeca
+  0.01	1	0	S	589436	                    Prevotella fusca
+  0.01	1	1	-	1236517	                      Prevotella fusca JCM 17724
+  4.44	841	0	F	171550	                Rikenellaceae
+  4.44	841	138	G	239759	                  Alistipes
+  3.39	642	0	S	214856	                    Alistipes finegoldii
+  3.39	642	642	-	679935	                      Alistipes finegoldii DSM 17242
+  0.32	61	0	S	328814	                    Alistipes shahii
+  0.32	61	61	-	717959	                      Alistipes shahii WAL 8301
+  1.04	197	0	F	1853231	                Odoribacteraceae
+  1.04	197	0	G	283168	                  Odoribacter
+  1.04	197	197	S	28118	                    Odoribacter splanchnicus
+  0.89	168	0	F	2005525	                Tannerellaceae
+  0.89	168	117	G	375288	                  Parabacteroides
+  0.27	51	51	S	2025876	                    Parabacteroides sp. CT06
+  0.01	1	0	C	117743	            Flavobacteriia
+  0.01	1	0	O	200644	              Flavobacteriales
+  0.01	1	0	F	49546	                Flavobacteriaceae
+  0.01	1	0	G	1016	                  Capnocytophaga
+  0.01	1	0	S	1018	                    Capnocytophaga ochracea
+  0.01	1	1	-	521097	                      Capnocytophaga ochracea DSM 7271
+ 21.86	4142	88	-	1783272	      Terrabacteria group
+ 21.06	3989	20	P	1239	        Firmicutes
+ 20.39	3863	5	C	186801	          Clostridia
+ 20.37	3858	111	O	186802	            Clostridiales
+ 13.94	2640	77	F	541000	              Ruminococcaceae
+  7.02	1329	0	G	216851	                Faecalibacterium
+  7.02	1329	1329	S	853	                  Faecalibacterium prausnitzii
+  6.45	1222	45	G	1263	                Ruminococcus
+  5.75	1089	1089	S	1160721	                  Ruminococcus bicirculans
+  0.46	88	0	S	1161942	                  Ruminococcus champanellensis
+  0.46	88	88	-	213810	                    Ruminococcus champanellensis 18P13 = JCM 17042
+  0.05	10	0	-	552397	                unclassified Ruminococcaceae
+  0.05	10	10	S	1572656	                  Ruminococcaceae bacterium CPB6
+  0.01	1	0	G	253238	                Ethanoligenens
+  0.01	1	0	S	253239	                  Ethanoligenens harbinense
+  0.01	1	1	-	663278	                    Ethanoligenens harbinense YUAN-3
+  0.01	1	0	G	1508657	                Ruminiclostridium
+  0.01	1	1	S	1510	                  [Clostridium] stercorarium
+  4.22	799	153	F	186803	              Lachnospiraceae
+  1.43	270	0	-	186928	                unclassified Lachnospiraceae
+  1.43	270	0	S	39491	                  [Eubacterium] rectale
+  1.43	270	270	-	515619	                    [Eubacterium] rectale ATCC 33656
+  0.83	157	0	G	841	                Roseburia
+  0.83	157	0	S	301301	                  Roseburia hominis
+  0.83	157	157	-	585394	                    Roseburia hominis A2-183
+  0.42	80	1	G	1506553	                Lachnoclostridium
+  0.23	44	44	S	208479	                  [Clostridium] bolteae
+  0.12	23	23	S	1871021	                  Lachnoclostridium phocaeense
+  0.06	11	0	S	84030	                  [Clostridium] saccharolyticum
+  0.06	11	11	-	610130	                    [Clostridium] saccharolyticum WM1
+  0.01	1	0	S	66219	                  Lachnoclostridium phytofermentans
+  0.01	1	1	-	357809	                    Lachnoclostridium phytofermentans ISDg
+  0.30	57	55	G	572511	                Blautia
+  0.01	2	0	S	1322	                  Blautia hansenii
+  0.01	2	2	-	537007	                    Blautia hansenii DSM 20583
+  0.20	38	0	G	2039240	                Anaerotignum
+  0.20	38	0	S	28446	                  Anaerotignum propionicum
+  0.20	38	38	-	991789	                    Anaerotignum propionicum DSM 1682
+  0.14	27	0	G	207244	                Anaerostipes
+  0.14	27	27	S	649756	                  Anaerostipes hadrus
+  0.09	17	15	G	830	                Butyrivibrio
+  0.01	2	2	S	185008	                  Butyrivibrio hungatei
+  0.92	174	0	F	216572	              Oscillospiraceae
+  0.92	174	0	G	459786	                Oscillibacter
+  0.92	174	0	S	351091	                  Oscillibacter valericigenes
+  0.92	174	174	-	693746	                    Oscillibacter valericigenes Sjm18-20
+  0.30	57	1	F	31979	              Clostridiaceae
+  0.30	56	16	G	1485	                Clostridium
+  0.21	40	40	S	29341	                  Clostridium argentinense
+  0.19	36	0	F	186806	              Eubacteriaceae
+  0.19	36	0	G	1730	                Eubacterium
+  0.15	28	0	S	39485	                  [Eubacterium] eligens
+  0.15	28	28	-	515620	                    [Eubacterium] eligens ATCC 27750
+  0.04	8	0	S	29322	                  [Eubacterium] cellulosolvens
+  0.04	8	8	-	633697	                    [Eubacterium] cellulosolvens 6
+  0.13	24	2	-	186813	              unclassified Clostridiales
+  0.06	12	0	G	1392389	                Intestinimonas
+  0.06	12	12	S	1297617	                  Intestinimonas butyriciproducens
+  0.05	10	0	G	946234	                Flavonifractor
+  0.05	10	10	S	292800	                  Flavonifractor plautii
+  0.05	9	0	F	990719	              Christensenellaceae
+  0.05	9	0	G	990721	                Christensenella
+  0.05	9	9	S	1805714	                  Christensenella massiliensis
+  0.02	4	0	F	186804	              Peptostreptococcaceae
+  0.02	3	0	G	1870884	                Clostridioides
+  0.02	3	3	S	1496	                  Clostridioides difficile
+  0.01	1	0	G	186831	                Acetoanaerobium
+  0.01	1	1	S	1511	                  Acetoanaerobium sticklandii
+  0.02	3	0	F	186807	              Peptococcaceae
+  0.02	3	0	G	1562	                Desulfotomaculum
+  0.02	3	0	S	59610	                  Desulfotomaculum reducens
+  0.02	3	3	-	349161	                    Desulfotomaculum reducens MI-1
+  0.01	1	0	-	538999	              Clostridiales incertae sedis
+  0.01	1	0	F	543314	                Clostridiales Family XIII. Incertae Sedis
+  0.01	1	0	S	143393	                  [Eubacterium] sulci
+  0.01	1	1	-	888727	                    Eubacterium sulci ATCC 35585
+  0.40	76	0	C	909932	          Negativicutes
+  0.31	58	0	O	1843489	            Veillonellales
+  0.31	58	25	F	31977	              Veillonellaceae
+  0.13	24	15	G	29465	                Veillonella
+  0.05	9	9	S	29466	                  Veillonella parvula
+  0.05	9	0	G	39948	                Dialister
+  0.05	9	9	S	39950	                  Dialister pneumosintes
+  0.05	10	0	O	1843488	            Acidaminococcales
+  0.05	10	0	F	909930	              Acidaminococcaceae
+  0.05	10	2	G	904	                Acidaminococcus
+  0.04	8	0	S	187327	                  Acidaminococcus intestini
+  0.04	8	8	-	568816	                    Acidaminococcus intestini RyC-MR95
+  0.04	8	0	O	909929	            Selenomonadales
+  0.04	7	0	F	1843491	              Selenomonadaceae
+  0.04	7	0	G	970	                Selenomonas
+  0.03	6	0	S	971	                  Selenomonas ruminantium
+  0.03	6	0	-	114197	                    Selenomonas ruminantium subsp. lactilytica
+  0.03	6	6	-	927704	                      Selenomonas ruminantium subsp. lactilytica TAM6421
+  0.01	1	1	S	1884263	                  Selenomonas sp. oral taxon 920
+  0.01	1	0	F	1843490	              Sporomusaceae
+  0.01	1	1	G	365348	                Pelosinus
+  0.15	28	1	C	91061	          Bacilli
+  0.13	24	4	O	186826	            Lactobacillales
+  0.07	13	0	F	1300	              Streptococcaceae
+  0.06	12	8	G	1301	                Streptococcus
+  0.01	1	1	S	1304	                  Streptococcus salivarius
+  0.01	1	1	S	1309	                  Streptococcus mutans
+  0.01	1	1	S	1318	                  Streptococcus parasanguinis
+  0.01	1	1	S	1811193	                  Streptococcus pantholopis
+  0.01	1	0	G	1357	                Lactococcus
+  0.01	1	0	S	1358	                  Lactococcus lactis
+  0.01	1	0	-	1359	                    Lactococcus lactis subsp. cremoris
+  0.01	1	1	-	1104322	                      Lactococcus lactis subsp. cremoris A76
+  0.03	6	0	F	33958	              Lactobacillaceae
+  0.03	6	0	G	1253	                Pediococcus
+  0.03	6	6	S	51663	                  Pediococcus damnosus
+  0.01	1	0	F	81850	              Leuconostocaceae
+  0.01	1	0	G	1243	                Leuconostoc
+  0.01	1	1	S	1245	                  Leuconostoc mesenteroides
+  0.02	3	0	O	1385	            Bacillales
+  0.01	2	0	F	90964	              Staphylococcaceae
+  0.01	2	1	G	1279	                Staphylococcus
+  0.01	1	1	S	70258	                  Staphylococcus piscifermentans
+  0.01	1	0	F	186817	              Bacillaceae
+  0.01	1	0	G	1386	                Bacillus
+  0.01	1	0	-	86661	                  Bacillus cereus group
+  0.01	1	1	S	1428	                    Bacillus thuringiensis
+  0.01	2	0	C	526524	          Erysipelotrichia
+  0.01	2	0	O	526525	            Erysipelotrichales
+  0.01	2	2	F	128827	              Erysipelotrichaceae
+  0.24	45	0	P	201174	        Actinobacteria
+  0.21	40	6	C	84998	          Coriobacteriia
+  0.17	33	15	O	84999	            Coriobacteriales
+  0.10	18	18	F	1643824	              Atopobiaceae
+  0.01	1	0	O	1643822	            Eggerthellales
+  0.01	1	0	F	1643826	              Eggerthellaceae
+  0.01	1	0	G	447020	                Adlercreutzia
+  0.01	1	0	S	446660	                  Adlercreutzia equolifaciens
+  0.01	1	1	-	1384484	                    Adlercreutzia equolifaciens DSM 19450
+  0.03	5	0	C	1760	          Actinobacteria
+  0.02	3	0	O	85009	            Propionibacteriales
+  0.02	3	0	F	31957	              Propionibacteriaceae
+  0.02	3	0	G	203133	                Propionimicrobium
+  0.02	3	3	S	1871034	                  Propionimicrobium sp. Marseille-P3275
+  0.01	2	0	O	85004	            Bifidobacteriales
+  0.01	2	0	F	31953	              Bifidobacteriaceae
+  0.01	2	0	G	1678	                Bifidobacterium
+  0.01	2	2	S	1680	                  Bifidobacterium adolescentis
+  0.11	20	0	P	544448	        Tenericutes
+  0.11	20	19	C	31969	          Mollicutes
+  0.01	1	0	O	186328	            Entomoplasmatales
+  0.01	1	0	F	2131	              Spiroplasmataceae
+  0.01	1	1	G	2132	                Spiroplasma
+  9.55	1810	8	P	1224	      Proteobacteria
+  9.43	1786	954	C	28216	        Betaproteobacteria
+  4.36	826	33	O	80840	          Burkholderiales
+  3.99	755	0	-	119065	            unclassified Burkholderiales
+  3.99	755	753	-	224471	              Burkholderiales Genera incertae sedis
+  0.01	2	0	G	318147	                Paucibacter
+  0.01	2	2	S	1768242	                  Paucibacter sp. KCTC 42545
+  0.10	19	0	F	506	            Alcaligenaceae
+  0.10	19	0	G	517	              Bordetella
+  0.10	19	19	S	520	                Bordetella pertussis
+  0.05	10	0	F	119060	            Burkholderiaceae
+  0.02	4	0	G	32008	              Burkholderia
+  0.01	2	0	-	87882	                Burkholderia cepacia complex
+  0.01	2	0	S	95486	                  Burkholderia cenocepacia
+  0.01	2	2	-	1055524	                    Burkholderia cenocepacia H111
+  0.01	2	0	-	111527	                pseudomallei group
+  0.01	2	0	S	28450	                  Burkholderia pseudomallei
+  0.01	1	1	-	1249470	                    Burkholderia pseudomallei MSHR1079
+  0.01	1	1	-	1335307	                    Burkholderia pseudomallei MSHR305
+  0.02	4	0	G	48736	              Ralstonia
+  0.02	4	0	S	305	                Ralstonia solanacearum
+  0.02	4	4	-	859655	                  Ralstonia solanacearum CMR15
+  0.01	2	2	G	106589	              Cupriavidus
+  0.04	8	0	F	80864	            Comamonadaceae
+  0.04	8	0	G	34072	              Variovorax
+  0.04	8	8	S	436515	                Variovorax boronicumulans
+  0.01	1	0	F	75682	            Oxalobacteraceae
+  0.01	1	0	G	149698	              Massilia
+  0.01	1	1	S	1707785	                Massilia sp. WG5
+  0.03	6	0	O	206351	          Neisseriales
+  0.03	6	1	F	481	            Neisseriaceae
+  0.02	3	0	G	59	              Vitreoscilla
+  0.02	3	3	S	63	                Vitreoscilla filiformis
+  0.01	2	0	G	482	              Neisseria
+  0.01	1	1	S	486	                Neisseria lactamica
+  0.01	1	1	S	487	                Neisseria meningitidis
+  0.04	8	1	C	1236	        Gammaproteobacteria
+  0.02	4	0	O	135625	          Pasteurellales
+  0.02	4	0	F	712	            Pasteurellaceae
+  0.02	4	2	G	724	              Haemophilus
+  0.01	2	0	S	729	                Haemophilus parainfluenzae
+  0.01	2	2	-	862965	                  Haemophilus parainfluenzae T3T1
+  0.01	2	0	O	135623	          Vibrionales
+  0.01	2	0	F	641	            Vibrionaceae
+  0.01	2	0	G	662	              Vibrio
+  0.01	2	1	S	666	                Vibrio cholerae
+  0.01	1	1	-	935297	                  Vibrio cholerae LMA3984-4
+  0.01	1	0	O	91347	          Enterobacterales
+  0.01	1	1	F	543	            Enterobacteriaceae
+  0.02	4	0	C	28211	        Alphaproteobacteria
+  0.01	2	0	O	356	          Rhizobiales
+  0.01	1	0	F	82115	            Rhizobiaceae
+  0.01	1	0	G	34019	              Liberibacter
+  0.01	1	0	S	556287	                Candidatus Liberibacter solanacearum
+  0.01	1	1	-	658172	                  Candidatus Liberibacter solanacearum CLso-ZC1
+  0.01	1	0	F	118882	            Brucellaceae
+  0.01	1	1	G	234	              Brucella
+  0.01	2	0	O	204458	          Caulobacterales
+  0.01	2	0	F	76892	            Caulobacteraceae
+  0.01	2	2	G	41275	              Brevundimonas
+  0.02	4	0	-	68525	        delta/epsilon subdivisions
+  0.02	4	0	C	28221	          Deltaproteobacteria
+  0.02	4	0	O	213115	            Desulfovibrionales
+  0.02	4	2	F	194924	              Desulfovibrionaceae
+  0.01	2	0	G	872	                Desulfovibrio
+  0.01	2	2	S	881	                  Desulfovibrio vulgaris
+  0.01	1	0	P	32066	      Fusobacteria
+  0.01	1	0	C	203490	        Fusobacteriia
+  0.01	1	0	O	203491	          Fusobacteriales
+  0.01	1	0	F	1129771	            Leptotrichiaceae
+  0.01	1	0	G	32067	              Leptotrichia
+  0.01	1	1	S	712357	                Leptotrichia sp. oral taxon 212
