@@ -19,8 +19,9 @@ public class algo2 {
 			secondSeq = predictSequence(weights, obsSequences, leastBit);
 			System.out.println(leastBit + " is the least bit. " + leastBitScore + " is the score of the least bit score.");
 			System.out.println("\n\nThe next predicted sequence is: " + secondSeq);
+			System.out.println("The two sequences are off by " + diffOnes(firstSeq, secondSeq) + " \'1\'");
 
-			System.out.println("Here's the data for which this sequence was predicted: ");
+			System.out.println("\n\n======> Here's the data for which this sequence was predicted: ");
 			printData(weights, obsSequences);
 		}
 
@@ -42,8 +43,9 @@ public class algo2 {
 			secondSeq = predictSequence(weights, obsSequences, leastBit);
 			System.out.println(leastBit + " is the least bit. " + leastBitScore + " is the score of the least bit score.");
 			System.out.println("\n\nThe next predicted sequence is: " + secondSeq);
+			System.out.println("The two sequences are off by " + diffOnes(firstSeq, secondSeq) + " \'1\'");
 
-			System.out.println("Here's the data for which this sequence was predicted: ");
+			System.out.println("\n\n======> Here's the data for which this sequence was predicted: ");
 			printData(weights, obsSequences);
 		}
 
@@ -168,6 +170,13 @@ public class algo2 {
 				count++;
 		}
 		return count;
+	}
+
+	// Returns the difference in number of 1's encountered between the two strings
+	private static int diffOnes(String a, String b) {
+		int numA = a.length() - a.replace("1", "").length();
+		int numB = b.length() - b.replace("1", "").length();
+		return Math.abs(numA - numB);
 	}
 }
 
