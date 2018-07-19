@@ -16,7 +16,7 @@ def getDictionary(fileName):
 
 		lineInfo = line.split()
 		# print lineInfo[3]
-		if(lineInfo[3] == 'G' or lineInfo[3] == 'S' or lineInfo[3] == '-'):
+		if(lineInfo[3] == 'S' or lineInfo[3] == 'G'):
 			# print lineInfo[1] + "\t" + lineInfo[4]
 			dic[lineInfo[4]] = int(lineInfo[1])
 
