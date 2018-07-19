@@ -12,20 +12,33 @@ public class algo2 {
 		String secondSeq = "";
 
 		if(args.length==1 && args[0].equals("example")) {
-			double[] weights = {3.5,4.1,0.2,0.5,0.6,2.1,4.4,2.0};
-			String[] obsSequences = {"01000110", "01111000", "01100100", "00011111", "10001001", "11111001", "01100111", "11111001"};
+			String actualSeq = "01110100";
+			System.out.println("The actual sequence is " + actualSeq);
+			double[][] weights = {	{0.25, 0.65, 0.10, 0, 0, 0.15, 0.90, 0.15},
+									{0.15, 0.75, 0.05, 0.20, 0, 0, 0, 0},
+									{0.25, 0.65, 0.10, 0, 0, 0.15, 0.90, 0.15}
+			};
+			String[][] obsSequences = {	{"01110100", "01110100", "01010000", "01010010", "11110100", "10001110", "01110100", "01111000"},
+										{"00111110", "01101110", "00111011", "01101011", "11011101", "01011011", "11001101", "00111000"},
+										{"00001010", "01100101", "00010110", "00010110", "11100101", "11101001", "01100101", "01101001"}
+			};
 			firstSeq = predictSequence(weights, obsSequences, -1);
-			System.out.println("\n\nThe predicted sequence is: " + firstSeq);
-			secondSeq = predictSequence(weights, obsSequences, leastBit);
+			// System.out.println("\n\nThe predicted sequence after first pass is: " + firstSeq);
 			System.out.println(leastBit + " is the least bit. " + leastBitScore + " is the score of the least bit score.");
+			secondSeq = predictSequence(weights, obsSequences, leastBit);
 			System.out.println("\n\nThe next predicted sequence is: " + secondSeq);
-			System.out.println("The two sequences are off by " + diffOnes(firstSeq, secondSeq) + " \'1\'");
+			System.out.println("The two sequences are off by " + diffOnes(actualSeq, secondSeq) + " \'1\'");
 
-			System.out.println("\n\n======> Here's the data for which this sequence was predicted: ");
+			System.out.println("\n======> Here's the data for which this sequence was predicted: ");
 			printData(weights, obsSequences);
 		}
 
 		else {
+
+			System.out.println("What is the actual sequence?");
+			String actualSeq = in.next();
+			System.out.println("");
+
 			double[] weights = new double[8];
 			String[] obsSequences = new String[8];
 			System.out.println("Enter the weights and observed sequence for: ");
@@ -39,14 +52,14 @@ public class algo2 {
 				obsSequences[i] = in.next();
 			}
 			firstSeq = predictSequence(weights, obsSequences, -1);
-			System.out.println("\n\nThe predicted sequence is: " + firstSeq);
-			secondSeq = predictSequence(weights, obsSequences, leastBit);
+			// System.out.println("\n\nThe predicted sequence after first pass is: " + firstSeq);
 			System.out.println(leastBit + " is the least bit. " + leastBitScore + " is the score of the least bit score.");
+			secondSeq = predictSequence(weights, obsSequences, leastBit);
 			System.out.println("\n\nThe next predicted sequence is: " + secondSeq);
-			System.out.println("The two sequences are off by " + diffOnes(firstSeq, secondSeq) + " \'1\'");
+			System.out.println("The two sequences are off by " + diffOnes(actualSeq, secondSeq) + " \'1\'");
 
-			System.out.println("\n\n======> Here's the data for which this sequence was predicted: ");
-			printData(weights, obsSequences);
+			// System.out.println("\n\n======> Here's the data for which this sequence was predicted: ");
+			// printData(weights, obsSequences);
 		}
 
 		// double[] weights = {3.5,4.1,0.2,0.5,0.6,2.1,4.4,2.0};
@@ -135,12 +148,12 @@ public class algo2 {
 			
 
 			// computing the score for every bit
-			// System.out.println("\n\nBit #: " + i + "=================\n");
-			// System.out.println("Sum1: "+sum1+", sum0: " + sum0);
+			System.out.println("\n\nBit #: " + i + "=================\n");
+			System.out.println("Sum1: "+sum1+", sum0: " + sum0);
 			double score = Math.abs(sum1 - sum0);
 			score /= numberValid;
 			// System.out.println("Number of valid sequences: " + numberValid);
-			// System.out.println("Score:" + score);
+			System.out.println("Score:" + score);
 
 
 			if(score < leastBitScore) {
