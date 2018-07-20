@@ -9,16 +9,20 @@ def getDictionary(fileName):
 
 	dic = {}
 
+	prevLineInfo = ['0', '0', '0', '0', '0']
 	for line in reportFile:
-		i += 1
-		if i < 6:
-			continue
 
 		lineInfo = line.split()
-		# print lineInfo[3]
-		if(lineInfo[3] == 'S' or lineInfo[3] == 'G'):
-			# print lineInfo[1] + "\t" + lineInfo[4]
-			dic[lineInfo[4]] = int(lineInfo[1])
+		# print prevLineInfo
+		if((lineInfo[3] != '-' and lineInfo[3] != 'S') and prevLineInfo[3] == 'G'):
+			# print "found a G with not a dash following it or an S!\n"
+			# print line
+			dic[prevLineInfo[4]] = int(prevLineInfo[1])
+			# print prevLineInfo
+
+
+		prevLineInfo = lineInfo
 
 	return dic
 
+# print getDictionary("reports/male/SRS011157_output_report.txt")

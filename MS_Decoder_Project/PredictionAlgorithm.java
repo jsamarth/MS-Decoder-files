@@ -20,13 +20,14 @@ public class PredictionAlgorithm {
 		Scanner in = new Scanner(f);
 
 		String actualSeq = in.next();
+		System.out.println("The actual sequence is " + actualSeq);
 		double weights[] = new double[8];
 		for(int i = 0; i < 8; i++) {
 			weights[i] = in.nextDouble();
 		}
-		String seqs[] = new String[8];
+		String obsSequences[] = new String[8];
 		for(int i = 0; i < 8; i++) {
-			seqs[i] = in.next();
+			obsSequences[i] = in.next();
 		}
 
 
@@ -34,9 +35,18 @@ public class PredictionAlgorithm {
 		String secondSeq = "";
 
 		firstSeq = predictSequence(weights, obsSequences, -1);
-		System.out.println("\n\nThe predicted sequence after first pass is: " + firstSeq);
+		System.out.println("The predicted sequence after first pass is: " + firstSeq);
 		if(firstSeq.equals(actualSeq)) {
 			System.out.println("The predicted sequence is the same as the actual sequence.");
+		}
+		else {
+			System.out.println(leastBit + " is the least bit. " + leastBitScore + " is the score of the least bit score.");
+			secondSeq = predictSequence(weights, obsSequences, leastBit);
+			System.out.println("\n\nThe next predicted sequence is: " + secondSeq);
+			System.out.println("The two sequences are off by " + diffOnes(actualSeq, secondSeq) + " \'1\'");
+
+			System.out.println("\n======> Here's the data for which this sequence was predicted: ");
+			printData(weights, obsSequences);
 		}
 	}
 
@@ -114,12 +124,12 @@ public class PredictionAlgorithm {
 			
 
 			// computing the score for every bit
-			System.out.println("\n\nBit #: " + i + "=================\n");
-			System.out.println("Sum1: "+sum1+", sum0: " + sum0);
+			// System.out.println("\n\nBit #: " + i + "=================\n");
+			// System.out.println("Sum1: "+sum1+", sum0: " + sum0);
 			double score = Math.abs(sum1 - sum0);
-			score /= numberValid;
+			// score /= numberValid;
 			// System.out.println("Number of valid sequences: " + numberValid);
-			System.out.println("Score:" + score);
+			// System.out.println("Score:" + score);
 
 
 			if(score < leastBitScore) {
