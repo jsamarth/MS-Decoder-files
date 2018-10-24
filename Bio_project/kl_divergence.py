@@ -415,7 +415,7 @@ for i in range(100):
 	feature_columns = [tf.feature_column.numeric_column("x", shape=[19])]
 
 
-	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns, hidden_units=[10,2],n_classes=3)
+	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns, hidden_units=[10,2],n_classes=3, dropout=0.5)
 
 	train_input_fn = tf.estimator.inputs.numpy_input_fn(x={"x": np.array(X_train)},y=np.array(y_train),num_epochs=None,shuffle=True)
 
