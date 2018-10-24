@@ -414,8 +414,11 @@ for i in range(100):
 
 	feature_columns = [tf.feature_column.numeric_column("x", shape=[19])]
 
-
-	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns, hidden_units=[10,2],n_classes=3, dropout=0.5)
+	# Added dropout and l1 regularization in the optimizer, and batch norm
+	classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns, hidden_units=[10,2],n_classes=3, dropout=0.5, optimizer=tf.train.ProximalAdagradOptimizer(
+      learning_rate=0.1,
+      l1_regularization_strength=0.001
+    ), batch_norm=True)
 
 	train_input_fn = tf.estimator.inputs.numpy_input_fn(x={"x": np.array(X_train)},y=np.array(y_train),num_epochs=None,shuffle=True)
 
