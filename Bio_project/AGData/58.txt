@@ -1,0 +1,8 @@
+  0.00	0	0	U	0	unclassified
+100.00	1	0	-	1	root
+100.00	1	0	-	131567	  cellular organisms
+100.00	1	0	D	2	    Bacteria
+100.00	1	0	-	1783272	      Terrabacteria group
+100.00	1	0	P	1239	        Firmicutes
+100.00	1	0	C	186801	          Clostridia
+100.00	1	1	O	186802	            Clostridiales

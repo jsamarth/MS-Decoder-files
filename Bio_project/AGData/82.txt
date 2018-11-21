@@ -1,0 +1,11 @@
+  0.00	0	0	U	0	unclassified
+100.00	1	0	-	1	root
+100.00	1	0	-	131567	  cellular organisms
+100.00	1	0	D	2	    Bacteria
+100.00	1	0	-	1783270	      FCB group
+100.00	1	0	-	68336	        Bacteroidetes/Chlorobi group
+100.00	1	0	P	976	          Bacteroidetes
+100.00	1	0	C	200643	            Bacteroidia
+100.00	1	0	O	171549	              Bacteroidales
+100.00	1	0	F	815	                Bacteroidaceae
+100.00	1	1	G	816	                  Bacteroides

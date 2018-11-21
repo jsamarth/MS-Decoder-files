@@ -1,0 +1,31 @@
+  0.00	0	0	U	0	unclassified
+100.00	12	0	-	1	root
+ 83.33	10	0	-	131567	  cellular organisms
+ 83.33	10	0	D	2	    Bacteria
+ 66.67	8	0	-	1783270	      FCB group
+ 66.67	8	0	-	68336	        Bacteroidetes/Chlorobi group
+ 66.67	8	0	P	976	          Bacteroidetes
+ 66.67	8	0	C	200643	            Bacteroidia
+ 66.67	8	0	O	171549	              Bacteroidales
+ 41.67	5	0	F	171552	                Prevotellaceae
+ 41.67	5	0	G	838	                  Prevotella
+ 41.67	5	0	S	589437	                    Prevotella scopos
+ 41.67	5	5	-	1236518	                      Prevotella scopos JCM 17725
+ 25.00	3	0	F	815	                Bacteroidaceae
+ 25.00	3	1	G	816	                  Bacteroides
+ 16.67	2	2	S	821	                    Bacteroides vulgatus
+  8.33	1	1	P	1224	      Proteobacteria
+  8.33	1	0	-	1783272	      Terrabacteria group
+  8.33	1	0	P	1239	        Firmicutes
+  8.33	1	0	C	186801	          Clostridia
+  8.33	1	0	O	186802	            Clostridiales
+  8.33	1	0	F	541000	              Ruminococcaceae
+  8.33	1	0	G	216851	                Faecalibacterium
+  8.33	1	1	S	853	                  Faecalibacterium prausnitzii
+ 16.67	2	0	D	10239	  Viruses
+ 16.67	2	0	-	29258	    ssDNA viruses
+ 16.67	2	0	F	10841	      Microviridae
+ 16.67	2	0	-	1910950	        Bullavirinae
+ 16.67	2	0	G	1910954	          Phix174microvirus
+ 16.67	2	0	-	1910975	            unclassified Phix174microvirus
+ 16.67	2	2	S	374840	              Enterobacteria phage phiX174 sensu lato

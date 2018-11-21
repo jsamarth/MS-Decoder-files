@@ -1,5 +1,4 @@
 def getDictionary(fileName):
-
 	try:
 		reportFile = open(fileName, "r")
 	except:
@@ -8,20 +7,18 @@ def getDictionary(fileName):
 	i = 0
 
 	dic = {}
-
-	prevLineInfo = ['0', '0', '0', '0', '0']
 	for line in reportFile:
-
 		lineInfo = line.split()
 		# print prevLineInfo
-		if((lineInfo[3] != '-' and lineInfo[3] != 'S') and prevLineInfo[3] == 'G'):
-			# print "found a G with not a dash following it or an S!\n"
-			# print line
-			dic[prevLineInfo[4]] = int(prevLineInfo[1])
-			# print prevLineInfo
-
-
-		prevLineInfo = lineInfo
+		try:
+			if(lineInfo[3] == 'G'):
+				# print "found a G with not a dash following it or an S!\n"
+				# print line
+				dic[lineInfo[4]] = int(lineInfo[1])
+				# print prevLineInfo
+		except:
+			print "-----------\n", fileName, "\n-----------\n"
+			break
 
 	return dic
 

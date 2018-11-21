@@ -1,0 +1,35 @@
+  0.00	0	0	U	0	unclassified
+100.00	17	0	-	1	root
+100.00	17	0	-	131567	  cellular organisms
+100.00	17	0	D	2	    Bacteria
+ 76.47	13	0	-	1783270	      FCB group
+ 76.47	13	0	-	68336	        Bacteroidetes/Chlorobi group
+ 64.71	11	2	P	976	          Bacteroidetes
+ 52.94	9	0	C	200643	            Bacteroidia
+ 52.94	9	0	O	171549	              Bacteroidales
+ 52.94	9	0	F	815	                Bacteroidaceae
+ 52.94	9	6	G	816	                  Bacteroides
+ 11.76	2	0	S	357276	                    Bacteroides dorei
+ 11.76	2	2	-	997877	                      Bacteroides dorei CL03T12C01
+  5.88	1	1	S	821	                    Bacteroides vulgatus
+ 11.76	2	0	P	1134404	          Ignavibacteriae
+ 11.76	2	0	C	795747	            Ignavibacteria
+ 11.76	2	0	O	795748	              Ignavibacteriales
+ 11.76	2	0	F	1334117	                Melioribacteraceae
+ 11.76	2	0	G	1134403	                  Melioribacter
+ 11.76	2	0	S	1134405	                    Melioribacter roseus
+ 11.76	2	2	-	1191523	                      Melioribacter roseus P3M-2
+ 17.65	3	0	-	1783272	      Terrabacteria group
+ 17.65	3	0	P	1239	        Firmicutes
+ 17.65	3	0	C	186801	          Clostridia
+ 17.65	3	2	O	186802	            Clostridiales
+  5.88	1	0	F	541000	              Ruminococcaceae
+  5.88	1	0	G	216851	                Faecalibacterium
+  5.88	1	1	S	853	                  Faecalibacterium prausnitzii
+  5.88	1	0	-	1783257	      PVC group
+  5.88	1	0	P	74201	        Verrucomicrobia
+  5.88	1	0	C	203494	          Verrucomicrobiae
+  5.88	1	0	O	48461	            Verrucomicrobiales
+  5.88	1	0	F	1647988	              Akkermansiaceae
+  5.88	1	0	G	239934	                Akkermansia
+  5.88	1	1	S	239935	                  Akkermansia muciniphila

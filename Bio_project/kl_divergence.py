@@ -26,7 +26,7 @@ def greater_than_65(val1,val2):
 
 
 # Female dictionary containing values of all key,value pairs.
-parent_dir_female = r"C:\Users\llaho\jsons\jsons\female_g"
+parent_dir_female = r"female_g"
 for json_file in glob.glob(os.path.join(parent_dir_female, '*.json')):
 	reads = json.loads(open(json_file).read())
 	# print(reads)
@@ -48,7 +48,7 @@ for m in female_dict:
 
 # Male dictionary of all key,value pairs
 count_new=0
-parent_dir_male = r"C:\Users\llaho\jsons\jsons\male_g"
+parent_dir_male = r"male_g"
 for json_file in glob.glob(os.path.join(parent_dir_male, '*.json')):
 	reads = json.loads(open(json_file).read())
 	for y in reads:
@@ -128,7 +128,7 @@ tot_var = dict()
 num=0
 for i in new_features_dict.keys():
 	# print(i)
-	parent_dir_female = r"C:\Users\llaho\jsons\jsons\female_g"
+	parent_dir_female = r"female_g"
 	new_list = []
 	for json_file in glob.glob(os.path.join(parent_dir_female, '*.json')):
 		reads = json.loads(open(json_file).read())
@@ -137,7 +137,7 @@ for i in new_features_dict.keys():
 			if x==i:
 				new_list.append(reads[x])
 			# print(new_list)
-	parent_dir_male = r"C:\Users\llaho\jsons\jsons\male_g"
+	parent_dir_male = r"male_g"
 	for json_file in glob.glob(os.path.join(parent_dir_male, '*.json')):
 		reads = json.loads(open(json_file).read())
 		for y in reads:
@@ -170,7 +170,7 @@ print((filtered_list))
 # making vectors to feed into the neural net
 # 1) female
 answer = []
-parent_dir_female = r"C:\Users\llaho\jsons\jsons\female_g"
+parent_dir_female = r"female_g"
 for json_file in glob.glob(os.path.join(parent_dir_female, '*.json')):
 	# print(json_file)
 	reads = json.loads(open(json_file).read())
@@ -193,7 +193,7 @@ df_fe['Label'] = 0
 # male dataframe
 count =0
 vector_to_feed_male=[]
-parent_dir_male = r"C:\Users\llaho\jsons\jsons\male_g"
+parent_dir_male = r"male_g"
 for json_file in glob.glob(os.path.join(parent_dir_male, '*.json')):
 	reads = json.loads(open(json_file).read())
 	local_list = []
@@ -235,13 +235,13 @@ check_count =0
 gnb_plot = []
 bnb_plot = []
 svm_plot = []
+print(result_df)
 for i in range(50):
 	X_train, X_test, y_train, y_test = train_test_split(result_df.iloc[:,1:42],result_df['Label'],test_size = 0.20, random_state=42)
 	# print(X_train.shape)
 	# print(X_test.shape)
 	# print(y_train.shape)
 	# print(y_test.shape)
-
 
 	#Random forest classifier
 	print("-"*10)
@@ -386,7 +386,7 @@ result_df['Label'] = new_df
 # plt.show()
 # print(np.mean(accuracy_plot))
 
-for i in range(100):
+for i in range(10):
 	# frames=[df_ma,df_fe]
 	# result_df = pd.concat(frames)
 	# print result_df
