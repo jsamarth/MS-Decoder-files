@@ -2,6 +2,7 @@ import urllib2
 import os
 from bs4 import BeautifulSoup
 import json
+import sys
 
 urls = []
 names = []
@@ -35,8 +36,18 @@ def get_one_website(url, name):
 	soup = BeautifulSoup(response, "lxml")
 
 	for pair in soup.find_all('sample_attribute'):
-		labels[pair.tag.contents[0]] = pair.value.contents[0]
-
+		try:
+			labels[pair.tag.contents[0]] = pair.value.contents[0]
+		except AttributeError:
+			print "AttributeError!===\n"
+			labels[pair.tag.contents[0]] = ''
+		except:
+			print "Exception!===================\n"
+			print pair, " <---\n"
+			sys.exit()
+			# return
+	
+	print "====creating the file!===="
 	with open("./labels/" + str(name) + ".json", 'w') as fp:
 		json.dump(labels, fp, sort_keys=True, indent=4)
 
@@ -44,11 +55,15 @@ def get_all_websites():
 	global urls
 	global names
 
-	for i in range(len(urls)):
-		print "Working on ", names[i]
-		print urls[i]
-		print "--------------\n\n"
-		get_one_website(urls[i], names[i])
+	try:
+		for i in range(len(urls)):
+			print "Working on ", names[i]
+			print urls[i]
+			print "--------------\n\n"
+			get_one_website(urls[i], names[i])
+	except KeyboardInterrupt:
+		print "\n====KeyboardInterrupt====\n\n"
+		return
 	
 generate_urls()
 get_all_websites()	

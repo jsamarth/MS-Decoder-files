@@ -1,2 +1,0 @@
-  0.00	0	0	U	0	unclassified
-100.00	1	1	-	1	root
